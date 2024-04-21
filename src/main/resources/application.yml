@@ -7,4 +7,6 @@ spring:
         jwt:
           issuer-uri: https://accounts.google.com
           jwk-set-uri: https://www.googleapis.com/oauth2/v3/certs
-
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/test-db
